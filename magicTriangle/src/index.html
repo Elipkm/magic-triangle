@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    
+    #my-canvas { border: 1px solid black; }
+    
+  </style>
+</head>
+<body onload="main()">
+  <canvas id="my-canvas" width="800" height="600"></canvas>
+
+    <button onclick="doMagic()">do magic</button>
+    <button onclick="addShapePoint()">add point</button>
+    <button onclick="removeShapePoint()">remove point</button>
+    
+    <p id="displayStart">Starting from point: </p>
+
+    <input type="number" placeholder="Iteration" id="magic-limit"/>
+
+    <div id="displayShapePoints"></div>
+
+
+  <script defer src="myscript.js"></script>
+</body>
+</html>
